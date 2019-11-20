@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+	
+	<typeAliases>
+		<typeAlias 
+			type="com.biz.dbms.persistence.BBsDTO" 
+			alias="BBsDTO"/>
+	</typeAliases>
+	
+	<!-- DB 연결을 위한 정보 설정 -->
+	<environments default="oracleConnection">
+	
+		<environment id="oracleConnection">
+			<!-- 
+				MyBATIS에서 JDBC를 사용한 Connection관리 
+			-->
+			<transactionManager type="JDBC">
+			</transactionManager>
+			<dataSource type="POOLED">
+				<property name="driver" 
+						value="oracle.jdbc.OracleDriver"/>
+				<property name="url" 
+					value="jdbc:oracle:thin:@localhost:1521:xe"/>
+				<property name="username" value="user4"/>
+				<property name="password" value="user4"/>
+			</dataSource>
+		</environment>
+	</environments>
+
+</configuration>
