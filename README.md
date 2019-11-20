@@ -1,6 +1,6 @@
 # 참고자료 모음
 
-## [settings.xml]:(https://github.com/callor/Reference/blob/master/settings.xml)
+## [settings.xml](https://github.com/callor/Reference/blob/master/settings.xml)
 * maven reposotory 설정용
 
 ## web.xml
