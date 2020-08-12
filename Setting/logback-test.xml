@@ -10,10 +10,7 @@
 
     <logger name="org.springframework" level="INFO" />
     <logger name="org.mybatis"><level value="INFO"/></logger>
-    <logger name="com.biz.product.persistence"><level value="INFO"/></logger>
-    <logger name="com.biz.product.persistence.ProductDao"><level value="DEBUG"/></logger>
-    <logger name="com.biz.product.controller"><level value="DEBUG"/></logger>
-    <logger name="com.biz.product.service"><level value="DEBUG"/></logger>
+    <logger name="com.biz.context"><level value="INFO"/></logger>
     
     <!-- SQL Logger -->
 	<logger name="jdbc.sqltiming" additivity="false">
