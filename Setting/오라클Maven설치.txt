@@ -7,9 +7,10 @@ C:\bizwork\apache-maven-3.6.2\bin\mvn.cmd
 C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;C:\bizwork\apache-maven-3.6.2\bin
 
 오라클 ojdbc.jar를 POM 리파지토리에 저장
-mvn install:install-file -Dfile=C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepository=C:/bizwork/jdk_3rd/repo
+mvn install:install-file -Dfile=C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar -Dpackaging=jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepositoryPath=C:/bizwork/jdk_3rd/repo
 
-mvn install:install-file -Dfile=/user/home/callor/Dowonload/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepository=/user/callor/maven
+
+mvn install:install-file -Dfile=/user/home/callor/Dowonload/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepositoryPath=C:/bizwork/jdk_3rd/repo
 
 
 
