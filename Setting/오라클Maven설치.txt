@@ -12,5 +12,6 @@ mvn install:install-file -Dfile=C:/oraclexe/app/oracle/product/11.2.0/server/jdb
 
 mvn install:install-file -Dfile=/user/home/callor/Dowonload/ojdbc6.jar -Dpackaging=jar -DgeneratePom=true -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepositoryPath=C:/bizwork/jdk_3rd/repo
 
+mvn install:install-file -Dfile=C:/Users/callor/Downloads/devTools/JDK_3rd/ojdbc8.jar -Dpackaging=jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -DlocalRepositoryPath=C:/user/callor/maven
 
 
