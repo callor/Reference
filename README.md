@@ -1,5 +1,9 @@
 # 참고자료 모음
 
+## [ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/%EC%98%A4%EB%9D%BC%ED%81%B4Maven%EC%84%A4%EC%B9%98.md)
+* 오라클 ojdbc6.jar 로컬 maven reposotory 설치
+
+
 ## [settings.xml](https://github.com/callor/Reference/blob/master/settings.xml)
 * maven reposotory 설정용
 
