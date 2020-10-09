@@ -1,4 +1,7 @@
-﻿
+﻿# 오라클 ojdbc6.jar 메이븐 리파지토리에 수동 설치
+
+### maven tool 다운로드
+(메이븐 바로가기)[http://maven.apache.org/]
 
 메이븐 다운로드 폴더에서 확인
 C:\bizwork\apache-maven-3.6.2\bin\mvn.cmd
