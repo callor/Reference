@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ [Layout]
+ %m : 로그내용이 출력
+ %p : trace > debug > info > warn > error 등의 priority 출력
+ %r : 어플리케이션이 시작되어 로깅이벤트가 발생하는 시점까지의 경과시간을 밀리세컨드로 출력
+ %c : 예) 카테고리가 a.b.c 처럼 되어있다면 %c{2}는 b.c가 출력됩니다.
+ %n :  플랫폼 종속적인 개행문자가 출력된다. \r\n 또는 \n 일것이다
+ %d : 로깅이벤트가 일어나 날짜 출력 ( 프로그램의 실행속도를 느리게 한다.)
+     예) %d{HH:mm:ss} 또는 %d{dd MMMM yyyy HH:mm:ss}
+ %C : 호출자의 클래스명 출력
+    예) 클래스구조가 org.apache.xyz.SomeClass 처럼 되어있다면 %C{2}는 xyz.SomeClass 가 출력됩니다
+ %M : 로깅이 발생한 method 이름을 나타냅니다.
+ %F : 로깅이 발생한 프로그램 파일명을 나타냅니다.
+ %l : 로깅이 발생한 caller의 정보를 나타냅니다 
+ %L : 로깅이 발생한 caller의 라인수를 나타냅니다 
+ %x : 로깅이 발생한 thread와 관련된 NDC(nested diagnostic context)를 출력합니다. 
+ %X : 로깅이 발생한 thread와 관련된 MDC(mapped diagnostic context)를 출력합니다. 
+ %% : % 표시를 출력하기 위해 사용한다.  
+ %t : 로그이벤트가 발생된 쓰레드의 이름을 출력합니다
+-->
+<configuration scan="true" scanPeriod="30 seconds">
+    
+
+	<!-- Insert the current time formatted as "yyyyMMdd'T'HHmmss" under
+     the key "bySecond" into the logger context. This value will be
+     available to all subsequent configuration elements. -->
+	<timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+	<appender name="FILE" class="ch.qos.logback.core.FileAppender">
+	  <file>log-${bySecond}.txt</file>
+	  <append>true</append>
+	  <!-- encoders are assigned the type
+	       ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+	  <encoder>
+	    <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+	  </encoder>
+	</appender>
+	
+
+    <!-- Rolling File에 저장하기 -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- rollover daily -->
+            <fileNamePattern>C:\logs\logback\logback-%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <!-- or whenever the file size reaches 1MB -->
+                <maxFileSize>1MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Console 에 출력하기 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%-5level] - %msg%n</Pattern>
+        </layout>
+    </appender>
+    
+    <!-- Loggers -->
+    <logger name="org.apache.catalina"	level="ERROR"  additivity="false"/>
+    <logger name="org.apache.commons"	level="ERROR"  additivity="false"/>
+    
+    <!-- jdbc mybatis -->
+    <logger name="java.sql" level="DEBUG"  additivity="false"/>
+    <logger name="org.mybatis.spring" level="DEBUG"  additivity="false"/>
+	
+	<!-- 3rdparty Loggers -->
+	<logger name="org.springframework" additivity="false">
+		<level value="INFO"/>
+	</logger>
+	<logger name="org.springframework.core"		level="INFO"  additivity="false" />
+	<logger name="org.springframework.beans"	level="INFO"  additivity="false" />
+	<logger name="org.springframework.context"	level="INFO"  additivity="false"/>
+	<logger name="org.springframework.web"		level="INFO"  additivity="false"/>
+
+	<!-- Application Loggers -->
+	<logger name="com.callor.shop" additivity="false">
+		<level value="INFO" />
+	</logger>
+    
+    <root level="DEBUG">
+       <appender-ref ref="ROLLING"/>
+       <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
