@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+; 마우스 우클릭 컨텍스트 메뉴 PowerShell -> CMD 변경 레지스트리
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmdprompt]
+@="@shell32.dll,-8506"
+"Extended"=""
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmdprompt\command]
+@="cmd.exe /s /k pushd \"%V\""
