@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- 1 dataSource 생성 -->
+	<bean id="ds" class="org.apache.commons.dbcp2.BasicDataSource">
+
+        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
+        <property name="url" value="jdbc:log4jdbc:oracle:thin:@127.0.0.1:1521:xe"/>
+		<property name="username" value="iouser" />
+		<property name="password" value="iouser" />
+	</bean>
+
+	<!-- sqlSession을 관리할 관리자 생성 -->
+	<!-- typeAliasesPackage value로 설정된 패키지에 있는 모든 DTO, VO 클래스를 자동으로 Alias 등록을 
+		수행 클래스이름의 첫글자를 소문자로 하고 나머지는 그대로 사용 (java에서 객체명명패턴 : MyClass myClass = new 
+		MyClass() ) typeAliases 개별적으로 클래스들을 alias로 설정 alias 이름을 임의로 별도 설정을 하고 싶으면 
+		mybatic-config.xml에 alias를 등록해서 사용하면 된다. -->
+	<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="ds" />
+		<property name="mapperLocations"
+			value="/WEB-INF/spring/mybatis/mapper/*-mapper.xml" />
+
+		<property name="configLocation"
+			value="/WEB-INF/spring/mybatis/mybatis-config.xml" />
+
+		<property name="typeAliasesPackage"
+			value="com.callor.product.domain" />
+
+	</bean>
+
+	<!-- mapper.xml과 Dao와 연동하여 DBMS 연산을 수행 -->
+	<bean class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlSessionFactory" />
+	</bean>
+
+</beans>

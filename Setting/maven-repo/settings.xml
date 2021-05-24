@@ -12,6 +12,6 @@
   </mirrors>
   <profiles>
   </profiles>
-  <localRepository>C:/bizwork/jdk_3rd/repo</localRepository>
+  <localRepository>C:/bizworks/jdk_3rd/repo</localRepository>
 
 </settings>
