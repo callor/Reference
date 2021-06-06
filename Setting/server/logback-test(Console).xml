@@ -22,12 +22,10 @@
 		 %t : (thread) 로그이벤트가 발생된 쓰레드의 이름을 출력합니다
 		-->
 
-    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
-        <layout>
-            <pattern>
-                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{32} - %msg%n
-            </pattern>
-        </layout>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{HH:mm:ss.SSS} [%-5level] - %msg%n</Pattern>
+        </encoder>
     </appender>
 
     <logger name="org.springframework" level="INFO" />
