@@ -19,15 +19,26 @@ hs_err_pid*
 /.idea/
 /spring.iml
 
-.metadata
+# eclipse project folder
+.metadata/
 bin/
 tmp/
+target/
+.target/
+.settings/
+Servers*/
+RemoteSystemsTempFiles/
+
+
+
+# eclipse project files
+.metadata
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
-.settings/
+
 .loadpath
 .recommenders
 
@@ -70,9 +81,6 @@ local.properties
 .worksheet
 RemoteSystemsTempFiles/
 
-*.class
-target/
-
 # Logs
 logs
 *.log
@@ -108,7 +116,7 @@ bower_components
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directories
+# nodejs Dependency directories
 node_modules/
 jspm_packages/
 
@@ -132,8 +140,6 @@ typings/
 
 # dotenv environment variables file
 .env
-.metadata/
-RemoteSystemsTempFiles/
 
 # ETC
 .bak
