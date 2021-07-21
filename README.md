@@ -1,19 +1,19 @@
 # :scream_cat: 참고자료 모음
 
-## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/%EC%98%A4%EB%9D%BC%ED%81%B4Maven%EC%84%A4%EC%B9%98.md)
+## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 * 오라클 ojdbc6.jar 로컬 maven reposotory 설치
 
 
-## :cat:[settings.xml](https://github.com/callor/Reference/blob/master/settings.xml)
+## :cat:[settings.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/settings.xml)
 * maven reposotory 설정용
 
-## :hamster:[web.xml](https://github.com/callor/Reference/blob/master/web.xml)
+## :hamster:[web.xml](https://github.com/callor/Reference/blob/master/Setting/server/web.xml)
 * SpringMVC 한글 Filter와 namespace 설정
 
-## :dolphin:[mybatis-config.xml](https://github.com/callor/Reference/blob/master/mybatis-config.xml)
+## :dolphin:[mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
 * maven, spring, oracle mybatis 설정
 
-## :ox:[bbs-mapper.xml](https://github.com/callor/Reference/blob/master/bbs-mapper.xml)
+## :ox:[mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
 * mybatis mapper 설정
 
 ## :blowfish:[.gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
