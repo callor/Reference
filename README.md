@@ -23,7 +23,7 @@
 * NodeJs git hub 업로드 금지 파일 목록
 
 
-## [gistfile.md](https://github.com/callor/Reference/blob/master/%EC%83%98%ED%94%8C%EB%8D%B0%EC%9D%B4%ED%84%B0/gistfile.md) 
+## [gistfile.md](https://github.com/callor/Reference/blob/master/샘플데이터/gistfile.md) 
 * git hub markdown 이모지 모음
 * 원본출처 : https://www.webfx.com/tools/emoji-cheat-sheet/
 
