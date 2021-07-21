@@ -27,6 +27,6 @@
 * git hub markdown 이모지 모음
 * 원본출처 : https://www.webfx.com/tools/emoji-cheat-sheet/
 
-## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/샘플데이터/마크다운 markdown 작성법.md)
+## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/샘플데이터/markdown.md)
 * 마크다운 문서 작성법 정리
 * 원본출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
