@@ -16,10 +16,10 @@
 ## :ox:[mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
 * mybatis mapper 설정
 
-## :blowfish:[.gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
+## :blowfish:[gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
 * Java Sprint Project git hub 업로드 금지 파일 목록
 
-## :dromedary_camel:[.Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
+## :dromedary_camel:[Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
 * NodeJs git hub 업로드 금지 파일 목록
 
 
