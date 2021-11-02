@@ -28,6 +28,7 @@
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        	<charset>UTF-8</charset>
             <Pattern>[%-5level] - %msg%n</Pattern>
         </encoder>
     </appender>
