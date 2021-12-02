@@ -5,6 +5,7 @@
 
 
 ''''
+
 	[Layout]
 	%m : 로그내용이 출력
 	%p : trace > debug > info > warn > error 등의 priority 출력
