@@ -4,14 +4,19 @@
 ## logback form 패턴
 
 
-''''
+
 
 	[Layout]
 	%m : 로그내용이 출력
+	%m : log.info("문자열") 문자열을 표시하는 패턴 
+	%n : new line 줄바꿈  
+	%n :  플랫폼 종속적인 개행문자가 출력된다. \r\n 또는 \n 일것이다
+
 	%p : trace > debug > info > warn > error 등의 priority 출력
 	%r : 어플리케이션이 시작되어 로깅이벤트가 발생하는 시점까지의 경과시간을 밀리세컨드로 출력
 	%c : 예) 카테고리가 a.b.c 처럼 되어있다면 %c{2}는 b.c가 출력됩니다.
-	%n :  플랫폼 종속적인 개행문자가 출력된다. \r\n 또는 \n 일것이다
+
+	
 	%d : 로깅이벤트가 일어나 날짜 출력 ( 프로그램의 실행속도를 느리게 한다.)
 	 예) %d{HH:mm:ss} 또는 %d{dd MMMM yyyy HH:mm:ss}
 	%d{HH:mm:ss.SSS} : 현재 시간 표시, 시간을 표시하면 서버 딜레이가 발생할수 있다
@@ -27,13 +32,8 @@
 	%% : % 표시를 출력하기 위해 사용한다.  
 	%t : (thread) 로그이벤트가 발생된 쓰레드의 이름을 출력합니다
 
+	%-5level : 출력할때 사용한 level(method) 표시
 
-''''
-
-* %m : log.info("문자열") 문자열을 표시하는 패턴 
-* %n : new line 줄바꿈  
-* %d{HH:mm:ss.SSS} : 시간표시  
-* %-5level : 출력할때 사용한 level(method) 표시
 
 ## logback level(method)
 * logger.trace("트레이스")
@@ -42,5 +42,5 @@
 * logger.warn("워닝");
 * logger.error("에러");
 
-* level을 error로 설정하면 상위 level의 method의 출력은 모두 무시된다.
-* level을 info로 설정하면 trace, debug는 무시되고, info, warn, error method의 출력만 나타난다
+* 사용법 : level을 error로 설정하면 상위 level의 method의 출력은 모두 무시된다.
+* 사용법 : level을 info로 설정하면 trace, debug는 무시되고, info, warn, error method의 출력만 나타난다
