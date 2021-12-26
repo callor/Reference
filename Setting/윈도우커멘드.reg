@@ -1,4 +1,4 @@
-Windows Registry Editor Version 5.00
+﻿Windows Registry Editor Version 5.00
 ; 마우스 우클릭 컨텍스트 메뉴 PowerShell -> CMD 변경 레지스트리
 
 [HKEY_CLASSES_ROOT\Directory\shell\cmdprompt]
@@ -24,3 +24,12 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Drive\shell\cmdprompt\command]
 @="cmd.exe /s /k pushd \"%V\""
+
+; 관리자 권한으로 추가
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+@="관리자 권한으로 여기에 CMD 창 열기"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
