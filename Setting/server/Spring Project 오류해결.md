@@ -1,12 +1,14 @@
 # Spring Project 오류해결
 
-## ```org.apache.catalina.LifecycleException, java.lang.ClassNotFoundException```
+## ```org.apache.catalina.LifecycleException, java.lang.ClassNotFoundException``` 문제가 발생할 경우
+
 * ```property / Deployment Assembly / Add / Java Build Path Entries / Maven...``` 선택하여 추가
 * ```java facets``` 복구
 * clean / 재시작
 
 ## Deployment Assembly 메뉴가 사라졌을 경우
-* project 폴더의 .project 파일을 열고, ```<nature>``` 설정을 찾는다
+
+* ```project``` 폴더의 ```.project``` 파일을 열고, ```<nature>``` 설정을 찾는다
 
 ```
 	<natures>
