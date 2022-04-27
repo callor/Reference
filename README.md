@@ -1,8 +1,6 @@
 # :scream_cat: 참고자료 모음
 
-## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
-* 오라클 ojdbc6.jar 로컬 maven reposotory 설치
-
+## :house:[개발도구 설치](https://github.com/callor/Reference/blob/master/개발도구설치.md)
 
 ## :cat:[settings.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/settings.xml)
 * maven reposotory 설정용
@@ -40,3 +38,8 @@
 * [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
 
 ## 2021-07-21
+
+## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
+* 오라클 ojdbc6.jar 로컬 maven reposotory 설치
+* maven 공식 다운로드 가능
+[바로가기](https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8)
