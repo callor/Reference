@@ -38,6 +38,50 @@
 * [정의서,양식](https://github.com/callor/Reference/blob/master/샘플데이터/정의서파일)
 * [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
 
+## :dog:정규식 문법
+* 비밀번호 검사 1 : 특수문자 / 문자 / 숫자 포함 형태의 8~15자리 이내의 암호 정규식
+```
+/^.*(?=^.{8,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/
+```
+
+* 비밀번호 검사 2 : 숫자와 문자 포함 형태의 6~12자리 이내의 암호 정규식
+```
+/^[A-Za-z0-9]{6,12}$/;
+```
+
+* 이메일 정규식
+```
+/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i
+```
+
+* 핸드폰번호 정규식
+```
+/^\d{3}-\d{3,4}-\d{4}$/
+```
+
+* 일반 전화번호 정규식
+```
+/^\d{2,3}-\d{3,4}-\d{4}$/
+```
+
+* 사용하는 법
+```
+const emailRule =/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+if( emailRule.test("callor") ){
+
+	console.log("Email 형식이 맞음");
+
+} else {
+
+	console.log("Email 형식이 맞지 않음");
+
+}
+
+
+```
+
+
+
 ## 2021-07-21
 
 ## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
