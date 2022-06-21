@@ -6,6 +6,10 @@
 ## :cat:[settings.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/settings.xml)
 * maven reposotory 설정용
 
+## :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test.xml)
+* logback log message 설정
+
+
 ## :hamster:[web.xml](https://github.com/callor/Reference/blob/master/Setting/server/web.xml)
 * SpringMVC 한글 Filter와 namespace 설정
 
