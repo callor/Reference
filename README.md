@@ -6,7 +6,7 @@
 ## :cat:[settings.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/settings.xml)
 * maven reposotory 설정용
 
-## :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test.xml)
+## :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
 * logback log message 설정
 
 
