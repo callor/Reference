@@ -10,8 +10,11 @@
 * logback log message 설정
 
 
-## :hamster:[web.xml](https://github.com/callor/Reference/blob/master/Setting/server/web.xml)
+## :hamster:[web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
 * SpringMVC 한글 Filter와 namespace 설정
+
+## :hamster:[web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
+* SpringMVC 한글 Filter, Security 설정
 
 ## :dolphin:[mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
 * maven, spring, oracle mybatis 설정
