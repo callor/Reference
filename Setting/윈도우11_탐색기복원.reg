@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+; sublime text / save encoding / UTF-16 LE With BOM 
+; 윈도우 11 탐색기 10 형식으로 변경
+; 탐색기 딜레이 개선
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{e2bf9676-5f8f-435c-97eb-11607a5bedf7}"=""
