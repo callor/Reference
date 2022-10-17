@@ -1,0 +1,30 @@
+{
+  /*
+   "body" : [] body 라는 배열을 선언
+      "body" : [ "korea", "대한민국"]
+          String[] body = new String[2];
+          bdoy[0] = "korea";
+          body[1] = "대한민국";
+    "<html lang=\"ko\"> 여기에서 \" 는 큰따옴표 기호를
+    일반 문자열 처럼 사용하겠다 라는 의미
+    "<html lang="ko">" 처럼 사용하면 문법 오류가 난다
+  */
+
+  "HTML5 with Callor": {
+    "prefix": "!",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"ko\">",
+      "",
+      "<head>",
+      "   <meta charset=\"UTF-8\">",
+      "   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "   <title>나의 홈페이지</title>",
+      "</head>",
+      "<body>",
+      "${1}",
+      "</body>",
+      "</html>"
+    ]
+  }
+}
