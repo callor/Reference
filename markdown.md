@@ -1,8 +1,8 @@
-# [공통] 마크다운 markdown 작성법
+# 마크다운 markdown 작성법
 
-## 문서출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
+## :camel: 문서출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
 
-## 2022.11.25 [표만들기](https://github.com/callor/Reference/blob/master/markdown.md#210-표만들기) 추가
+## snake: 2022.11.25 [표만들기](https://github.com/callor/Reference/blob/master/markdown.md#210-표만들기) 추가
 
 - [출처]<https://inasie.github.io/it일반/마크다운-표-만들기/>
 
