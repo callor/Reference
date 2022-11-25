@@ -112,5 +112,5 @@ if( emailRule.test("callor") ){
 ## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 
 - 오라클 ojdbc6.jar 로컬 maven reposotory 설치
-- (2021-07-21) maven 공식 다운로드 가능
+- (2021-07-21) maven 공식 다운로드 가능 : `ojdbc8`
   [바로가기](https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8)
