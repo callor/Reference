@@ -2,6 +2,8 @@
 
 ## 문서출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
 
+## 2022.11.25 [표만들기](https://github.com/callor/Reference/blob/master/markdown.md#210-표만들기) 추가
+
 # 1. 마크다운에 관하여
 
 ## 1.1. 마크다운이란?
@@ -414,6 +416,16 @@ __double underscores__
 | 테스트1 | 테스트2 | 테스트3 |
 
 ---
+
+정렬 : 문자로 정렬을 정의할 수 있습니다.
+
+<pre>
+|제목|내용|설명|
+|:---|---:|:---:|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+|왼쪽정렬|오른쪽정렬|중앙정렬|
+</pre>
 
 # 3. 마크다운 사용기
 
