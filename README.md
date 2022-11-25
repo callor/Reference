@@ -36,12 +36,12 @@
 
 - NodeJs git hub 업로드 금지 파일 목록
 
-## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/gistfile.md)
+## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/마크다운이모지.md)
 
 - git hub markdown 이모지 모음
 - 원본출처 : https://www.webfx.com/tools/emoji-cheat-sheet/
 
-## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown.md)
+## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/마크다운작성.md)
 
 - 마크다운 문서 작성법 정리
 - 원본출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
@@ -55,6 +55,10 @@
 - [매입매출](https://github.com/callor/Reference/blob/master/샘플데이터/매입매출데이터)
 - [정의서,양식](https://github.com/callor/Reference/blob/master/샘플데이터/정의서파일)
 - [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
+
+## :cyclone:[자바자료형](https://github.com/callor/Reference/blob/master/자바자료형.md)
+
+- 자바 primitive 자료형 정리
 
 ## :dog:정규식 문법
 
