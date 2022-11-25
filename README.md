@@ -1,8 +1,8 @@
 # :scream_cat: 참고자료 모음
 
-## :racehorse:[개발도구 설치](https://github.com/callor/Reference/blob/master/개발도구설치.md)
+## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/개발자를 위한 도구.md)
 
-- 개발도구 설치 링크 모음
+- 개발도구 링크 모음
 
 ## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Setting/maven-repo)
 
