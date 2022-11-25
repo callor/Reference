@@ -472,7 +472,7 @@ span tag를 사용하면 컬러도 표시할 수 있다.
 
 ---
 
-[출처]<https://inasie.github.io/it%EC%9D%BC%EB%B0%98/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%91%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0/>
+[출처]<https://inasie.github.io/it일반/마크다운-표-만들기/>
 
 # 3. 마크다운 사용기
 
