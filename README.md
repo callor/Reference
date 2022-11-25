@@ -56,7 +56,7 @@
 - [정의서,양식](https://github.com/callor/Reference/blob/master/샘플데이터/정의서파일)
 - [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
 
-## :cyclone:[자바자료형](https://github.com/callor/Reference/blob/master/자바자료형.md)
+## :cyclone:[자바 Primitive 자료형](https://github.com/callor/Reference/blob/master/자바자료형.md)
 
 - 자바 primitive 자료형 정리
 
