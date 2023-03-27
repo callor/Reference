@@ -30,11 +30,11 @@
 
 ## :blowfish:[gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
 
-- Java Sprint Project git hub 업로드 금지 파일 목록
+- Java, Spring Project git hub 업로드 금지 파일 목록
 
 ## :dromedary_camel:[Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
 
-- NodeJs git hub 업로드 금지 파일 목록
+- NodeJs, React Project git hub 업로드 금지 파일 목록
 
 ## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/마크다운이모지.md)
 
