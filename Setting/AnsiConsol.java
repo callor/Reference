@@ -11,6 +11,19 @@ public class AnsiConsol {
 
     private static final String exit     = "\u001B[0m" ;
     
+
+    public static final String message(String color,String message){
+        if     ("BLACK".equalsIgnoreCase(color))    color = black;
+        else if("RED".equalsIgnoreCase(color))      color = red;
+        else if("GREEN".equalsIgnoreCase(color))    color = green;
+        else if("YELLOW".equalsIgnoreCase(color))   color = yellow;
+        else if("BLUE".equalsIgnoreCase(color))     color = blue;
+        else if("PURPLE".equalsIgnoreCase(color))   color = purple;
+        else if("CYAN".equalsIgnoreCase(color))     color = cyan;
+        else color = white;
+        return String.format("%s%s%s",color,message,exit);
+    }
+    
     public static final String BLACK(String text) {
     	return String.format("%s%s%s",black,text,exit);
     }
