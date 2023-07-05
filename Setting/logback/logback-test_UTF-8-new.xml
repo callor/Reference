@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration scan="true" scanPeriod="3 seconds">
 
-   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 
+        encoders 는 
+        ch.qos.logback.classic.encoder.PatternLayoutEncoder 를 기본으로 사용한다 
+        -->
         <encoder>
             <charset>UTF-8</charset>
-            <Pattern>  [%-5level] %C{5} - %msg  %n</Pattern>
+            <!-- 대문자 C{length} : 로깅 요청을 발행하는 호출자의 정규화된 클래스 이름을 출력 -->
+            <!-- 클래스 class{length} : 로깅 요청을 발행하는 호출자의 정규화된 클래스 이름을 출력 -->
+            
+            <!-- 소문자 c{length}  : 로깅 이벤트의 출처에서 로거의 이름을 출력합니다. -->
+            <!-- 로거 logger{length}  : 로깅 이벤트의 출처에서 로거의 이름을 출력합니다. -->
+        
+            <Pattern> [%-5level] %c{5} - %msg %F %n</Pattern>
         </encoder>
     </appender>
 
