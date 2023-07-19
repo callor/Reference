@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+!DOCTYPE html>
+<html lang="ko" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY CAR</title>
+    <link th:href="@{/static/css/main.css}" rel="stylesheet" />
+    <link th:href="@{/static/css/input.css}" rel="stylesheet" />
+    <script th:src="@{/static/js/main_input_validation.js}"></script>
+    <script th:src="@{/static/js/main_input.js}"></script>
+  </head>
+  <body>
+    <header th:replace="~{include :: header}" />
+    <nav th:replace="~{include :: nav}" />
+
+    <section class="main" layout:fragment="content">
+      <h1>Body Main</h1>
+    </section>
+
+    <footer th:replace="~{include :: footer}" />
+  </body>
+</html>

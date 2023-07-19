@@ -1,0 +1,10 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorator="~{/layout}">
+  <section layout:fragment="content" class="buyer_detail">
+    <div><label>ID</label><span th:text="${BUYER.userid}">B0001</span> <label>이름</label><span th:text="${BUYER.name}">홍길동</span></div>
+    <div><label>전화번호</label><span th:text="${BUYER.tel}">02-111</span> <label>주소</label><span th:text="${BUYER.address}">서울시</span></div>
+    <div>
+      <button class="btn_update">고객정보 수정</button>
+      <button class="btn_delete btn_warring">고객정보 삭제</button>
+    </div>
+  </section>
+</html>
