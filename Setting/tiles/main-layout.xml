@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="default"
+		template="/WEB-INF/views/home.jsp">
+		<put-attribute name="head"
+			value="/WEB-INF/views/includes/include-head.jsp" />
+	</definition>
+
+	<definition name="home" extends="default">
+		<put-attribute name="main-content" value="" />
+	</definition>
+
+</tiles-definitions>
+  
+  

@@ -1,0 +1,22 @@
+	<properties>
+		<org.tiles-version>3.0.8</org.tiles-version>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+	</properties>
+	<dependencies>
+
+		<!-- 
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-core</artifactId>
+			<version>${org.tiles-version}</version>
+		</dependency>
+		 -->
+
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>${org.tiles-version}</version>
+		</dependency>
+
+	</dependencies>
