@@ -6,7 +6,7 @@
 
 ## :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
 
-- Spring MVC Project 표준 pom.xml
+- Spring MVC Project 표준 pom.xml : 2023. 07. 25일 Tomcat 9 호환
 
 
 ## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Setting/maven-repo)
