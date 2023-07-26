@@ -4,6 +4,11 @@
 
 - 개발도구 링크 모음
 
+## :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
+
+- Spring MVC Project 표준 pom.xml
+
+
 ## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Setting/maven-repo)
 
 - maven reposotory 설정용
