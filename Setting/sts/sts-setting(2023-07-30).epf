@@ -1,0 +1,18 @@
+#Sun Jul 30 08:50:28 KST 2023
+\!/=
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.codegen.targetPlatform=15
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.compliance=15
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.release=enabled
+/instance/org.eclipse.jdt.core/org.eclipse.jdt.core.compiler.source=15
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
+/instance/org.eclipse.jdt.launching/org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1682065401859" defaultVMConnector\="">\r\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n        <vm id\="1682065401859" name\="jdk-15.0.2" path\="C\:\\Users\\callor\\Downloads\\devTools\\jdk-15.0.2"/>\r\n    </vmType>\r\n</vmSettings>\r\n
+/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.formatterprofiles.version=23
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<org.eclipse.ui.commands/>
+@org.eclipse.jdt.core=3.27.0.v20210823-1758
+@org.eclipse.jdt.launching=3.19.300.v20210815-1119
+@org.eclipse.jdt.ui=3.24.0.v20210823-0647
+@org.eclipse.ui.workbench=3.123.0.v20210817-0704
+file_export_version=3.0
