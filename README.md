@@ -70,9 +70,18 @@ url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' vie
 - [정의서,양식](https://github.com/callor/Reference/blob/master/샘플데이터/정의서파일)
 - [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
 
-## :dog:[자바 Primitive 자료형](https://github.com/callor/Reference/blob/master/자바자료형.md)
+## :dog:자바 Primitive 자료형
 
-- 자바 primitive 자료형 정리
+| 종류    | 설명           | 저장 공간       | 값의 범위 (최소값~최대값)                                                 |
+| ------- | -------------- | --------------- | ------------------------------------------------------------------------- |
+| boolean | 논리값         | 1 bits          | true / false                                                              |
+| byte    | 부호 있는 정수 | 8bits, 1Byte    | -128 ~ 127                                                                |
+| char    | 유니코드 문자  | 16bits, 2Bytes  | \u0000 ~ \uFFFF                                                           |
+| short   | 부호 있는 정수 | 16bits, 2Bytes  | -32768 ~ 32767                                                            |
+| int     | 부호 있는 정수 | 32bits, 4Bytes  | -2147483648 ~ 2147483647                                                  |
+| long    | 부호 있는 정수 | 64bits, 8Bytes  | -9223372036854775808 ~ 9223372036854775807                                |
+| float   | IEEE 754 실수  | 32bits, 4Bytes  | 1.40239846E-45f ~ (표현 가능 양수 범위) 3.40282347E+38f                   |
+| double  | IEEE 754 실수  | 64 bits, 8Bytes | 4.94065645841246544E-324 ~ (표현 가능 양수 범위) 1.79769313486231570E+308 |
 
 ## :cyclone:정규식 문법
 
