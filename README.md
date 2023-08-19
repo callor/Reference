@@ -3,11 +3,11 @@
 ## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/개발자를_위한_도구.md)
 
 - 개발도구 링크 모음
+- 2023. 8.  19. Update
 
 ## :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
 
 - Spring MVC Project 표준 pom.xml : 2023. 07. 25일 Tomcat 9 호환
-
 
 ## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Setting/maven-repo)
 
@@ -44,18 +44,18 @@
 ## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/마크다운이모지.md)
 
 - git hub markdown 이모지 모음
-- 원본출처 : https://www.webfx.com/tools/emoji-cheat-sheet/
+- 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
 ## :blowfish:W3C SVG 이미지
 
-<img src="https://github.com/callor/Reference/assets/23270330/72c8868d-e115-4177-95c3-9cd9a2f5fc67" width="100px" height="100px"/>
+![search](https://github.com/callor/Reference/assets/23270330/72c8868d-e115-4177-95c3-9cd9a2f5fc67){:width="100px" height="100px"}
 
 ```css
 url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='%23999' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' /%3E%3C/svg%3E)
 ```
 
-<img src="https://github.com/callor/Reference/assets/23270330/1c556861-09be-49d4-828a-a223895921ca" 
-	 width="100px" height="100%" alt="spinner"/>
+![spinner](https://github.com/callor/Reference/assets/23270330/1c556861-09be-49d4-828a-a223895921ca){:  
+ width="100px" height="100%" alt="spinner"}
 
 ```css
 url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cpath stroke='%23000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M20 4v5h-.582m0 0a8.001 8.001 0 00-15.356 2m15.356-2H15M4 20v-5h.581m0 0a8.003 8.003 0 0015.357-2M4.581 15H9' /%3E%3C/svg%3E)
@@ -64,7 +64,7 @@ url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' vie
 ## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/마크다운작성.md)
 
 - 마크다운 문서 작성법 정리
-- 원본출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md
+- 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
 
 ## :moneybag:[프로젝트 샘플데이터](https://github.com/callor/Reference/blob/master/샘플데이터)
 
@@ -103,7 +103,6 @@ url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' vie
 /^.*(?=^.{8,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/
 ```
 
-
 - 이메일 정규식
 
 ```
@@ -128,11 +127,11 @@ url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' vie
 const emailRule =/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
 if( emailRule.test("callor") ){
 
-	console.log("Email 형식이 맞음");
+ console.log("Email 형식이 맞음");
 
 } else {
 
-	console.log("Email 형식이 맞지 않음");
+ console.log("Email 형식이 맞지 않음");
 
 }
 
@@ -142,7 +141,18 @@ if( emailRule.test("callor") ){
 ## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 
 - 오라클 ojdbc6.jar 로컬 maven reposotory 설치
+- 2021-07-21 이후 maven 에서 **objbc8** 등 공식 JDBC 다운로드 설치 가능해짐
 
 ## :dog:[ojdbc8 설치](https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8)
 
-- 2021-07-21 이후 maven 공식 다운로드 가능 : `ojdbc8`
+- 2021-07-21 이후 maven `ojdbc8` dependency 공식 다운로드 가능 :
+
+```xml
+<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>23.2.0.0</version>
+</dependency>
+
+```
