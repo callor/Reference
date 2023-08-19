@@ -65,7 +65,7 @@
 
 ## :dog:자바 Primitive 자료형
 
-[자바 자료형](https://github.com/callor/Reference/blob/master/markdown/자바)
+[자바 자료형](https://github.com/callor/Reference/blob/master/markdown/자바자료형.md)
 
 | 종류    | 설명           | 저장 공간       | 값의 범위 (최소값~최대값)                                                 |
 | ------- | -------------- | --------------- | ------------------------------------------------------------------------- |
