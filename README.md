@@ -41,7 +41,7 @@
 
 - NodeJs, React Project git hub 업로드 금지 파일 목록
 
-## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/마크다운이모지.md)
+## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/markdown/마크다운이모지.md)
 
 - git hub markdown 이모지 모음
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
