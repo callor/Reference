@@ -48,7 +48,7 @@
 
 ## :blowfish:W3C SVG 이미지
 
-## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown/markdown/마크다운작성.md)
+## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown/마크다운작성.md)
 
 - 마크다운 문서 작성법 정리
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
@@ -65,6 +65,8 @@
 
 ## :dog:자바 Primitive 자료형
 
+[자바 자료형](https://github.com/callor/Reference/blob/master/markdown/자바)
+
 | 종류    | 설명           | 저장 공간       | 값의 범위 (최소값~최대값)                                                 |
 | ------- | -------------- | --------------- | ------------------------------------------------------------------------- |
 | boolean | 논리값         | 1 bits          | true / false                                                              |
@@ -78,52 +80,7 @@
 
 ## :cyclone:정규식 문법
 
-- 비밀번호 검사 1 : 숫자와 문자 포함 형태의 6~12자리 이내의 암호 정규식
-
-```
-/^[A-Za-z0-9]{6,12}$/;
-```
-
-- 비밀번호 검사 2 : 특수문자 / 문자 / 숫자 포함 형태의 8~15자리 이내의 암호 정규식
-
-```
-/^.*(?=^.{8,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/
-```
-
-- 이메일 정규식
-
-```
-/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i
-```
-
-- 핸드폰번호 정규식
-
-```
-/^\d{3}-\d{3,4}-\d{4}$/
-```
-
-- 일반 전화번호 정규식
-
-```
-/^\d{2,3}-\d{3,4}-\d{4}$/
-```
-
-- JavaScript 에서 사용하는 법
-
-```
-const emailRule =/^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
-if( emailRule.test("callor") ){
-
- console.log("Email 형식이 맞음");
-
-} else {
-
- console.log("Email 형식이 맞지 않음");
-
-}
-
-
-```
+[정규식 문법](https://github.com/callor/Reference/blob/master/markdown/JS정규식.md)
 
 ## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 
