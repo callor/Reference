@@ -1,6 +1,6 @@
 # :scream_cat: 참고자료 모음
 
-## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/개발자를_위한_도구.md)
+## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/markdown/개발자를_위한_도구.md)
 
 - 개발도구 링크 모음
 - 2023. 8.  19. Update
@@ -48,7 +48,7 @@
 
 ## :blowfish:W3C SVG 이미지
 
-## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/마크다운작성.md)
+## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown/markdown/마크다운작성.md)
 
 - 마크다운 문서 작성법 정리
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
