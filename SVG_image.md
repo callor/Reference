@@ -1,6 +1,6 @@
 # SVG images
 
-![search](https://github.com/callor/Reference/assets/23270330/72c8868d-e115-4177-95c3-9cd9a2f5fc67)
+![search](https://github.com/callor/Reference/assets/23270330/72c8868d-e115-4177-95c3-9cd9a2f5fc67 =100x100)
 
 ````css
 
