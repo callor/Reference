@@ -3,7 +3,7 @@
 ## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/markdown/개발자를_위한_도구.md)
 
 - 개발도구 링크 모음
-- 2023. 8.  19. Update
+- **2023. 8. 19.** Update
 
 ## :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
 
@@ -46,7 +46,7 @@
 - git hub markdown 이모지 모음
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
-## :blowfish:W3C SVG 이미지
+## :blowfish:W3C SVG 이미지[샘플](https://github.com/callor/Reference/blob/master/markdown/SVG_image.md)
 
 ## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown/마크다운작성.md)
 
