@@ -1,2 +1,3 @@
 * linguist-vendored
 *.md linguist-vendored=false
+*.java linguist-vendored=false
