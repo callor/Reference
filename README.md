@@ -1,6 +1,6 @@
 # :scream_cat: 참고자료 모음
 
-## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/markdown/개발자를_위한_도구.md)
+## :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
 
 - 개발도구 링크 모음
 - **2023. 8. 19.** Update
@@ -41,14 +41,14 @@
 
 - NodeJs, React Project git hub 업로드 금지 파일 목록
 
-## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/markdown/마크다운이모지.md)
+## :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운이모지.md)
 
 - git hub markdown 이모지 모음
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
-## :blowfish:W3C SVG 이미지[샘플](https://github.com/callor/Reference/blob/master/markdown/SVG_image.md)
+## :blowfish:W3C SVG 이미지[샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
 
-## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/markdown/마크다운작성.md)
+## :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
 
 - 마크다운 문서 작성법 정리
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
@@ -65,7 +65,7 @@
 
 ## :dog:자바 Primitive 자료형
 
-[자바 자료형](https://github.com/callor/Reference/blob/master/markdown/자바자료형.md)
+[자바 자료형](https://github.com/callor/Reference/blob/master/MarkDownDocs/자바자료형.md)
 
 | 종류    | 설명           | 저장 공간       | 값의 범위 (최소값~최대값)                                                 |
 | ------- | -------------- | --------------- | ------------------------------------------------------------------------- |
@@ -80,7 +80,7 @@
 
 ## :cyclone:정규식 문법
 
-[정규식 문법](https://github.com/callor/Reference/blob/master/markdown/JS정규식.md)
+[정규식 문법](https://github.com/callor/Reference/blob/master/MarkDownDocs/JS정규식.md)
 
 ## :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 
