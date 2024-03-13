@@ -4,13 +4,13 @@
 
 - **2023. 8. 19.** Update
 
-##### [개발도구 바로가기](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
+- [개발도구 바로가기](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
 
 ---
 
 ### :cat:Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
 
-##### [pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
+- [pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
 
 ---
 
