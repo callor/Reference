@@ -1,3 +1,5 @@
 * linguist-vendored
 *.md linguist-vendored=false
 *.java linguist-vendored=false
+*.json linguist-vendored=false
+*.xml linguist-vendored=false
