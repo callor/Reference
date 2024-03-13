@@ -1,90 +1,90 @@
 # :scream_cat: 참고자료 모음
 
-### 개발도구 링크 모음
+### :racehorse:개발도구 링크 모음
 
 - **2023. 8. 19.** Update
 
-##### :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
+##### [개발도구 바로가기](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
 
 ---
 
-### Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
+### :cat:Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
 
-##### :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
-
----
-
-### maven reposotory 설정용
-
-##### :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
+##### [pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
 
 ---
 
-### vsCode `settings.json` 샘플
+### :cat:maven reposotory 설정용
 
-##### :cat:[settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
-
----
-
-### logback log message 설정
-
-##### :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
+##### [settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
 
 ---
 
-### SpringMVC 한글 Filter와 namespace 설정
+### :cat:vsCode `settings.json` 샘플
 
-##### :hamster:[web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
-
----
-
-### SpringMVC 한글 Filter, Security 설정
-
-##### :hamster:[web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
+##### [settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
 
 ---
 
-### maven, spring, oracle mybatis 설정
+### :ox:logback log message 설정
 
-##### :dolphin:[mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
-
----
-
-### mybatis mapper 설정
-
-##### :ox:[mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
+##### [logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
 
 ---
 
-### Java, Spring Project git hub 업로드 금지 파일 목록
+### :hamster:SpringMVC 한글 Filter와 namespace 설정
 
-##### :blowfish:[gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
-
----
-
-### NodeJs, React Project git hub 업로드 금지 파일 목록
-
-##### :dromedary_camel:[Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
+##### [web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
 
 ---
 
-### git hub markdown 이모지 모음
+### :hamster:SpringMVC 한글 Filter, Security 설정
 
-##### :blowfish:[마크다운 이모지](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운이모지.md)
+##### [web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
+
+---
+
+### :dolphin:maven, spring, oracle mybatis 설정
+
+##### [mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
+
+---
+
+### :ox:mybatis mapper 설정
+
+##### [mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
+
+---
+
+### :blowfish:Java, Spring Project git hub 업로드 금지 파일 목록
+
+##### [gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
+
+---
+
+### :dromedary_camel:NodeJs, React Project git hub 업로드 금지 파일 목록
+
+##### [Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
+
+---
+
+### :blowfish: git hub markdown 이모지 모음
+
+##### [마크다운 이모지](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운이모지.md)
 
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
 ---
 
-### SVG 샘플
+### :blowfish:SVG 샘플
 
-##### :blowfish:[W3C SVG 이미지 샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
+##### [W3C SVG 이미지 샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
 
 ---
 
-### 마크다운 문서 작성법 정리
+### :baby_chick:마크다운 문서 작성법 정리
 
-##### :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
+##### [마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
 
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
 
