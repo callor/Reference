@@ -78,7 +78,7 @@
 
 ### SVG 샘플
 
-##### :blowfish:W3C SVG 이미지[샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
+##### :blowfish:[W3C SVG 이미지 샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
 
 ---
 
