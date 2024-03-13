@@ -9,11 +9,13 @@
 
 - Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
 
-## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Setting/maven-repo)
-
-- vsCode `settings.json` 샘플
+## :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
 
 - maven reposotory 설정용
+
+## :cat:[settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
+
+- vsCode `settings.json` 샘플
 
 ## :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
 
