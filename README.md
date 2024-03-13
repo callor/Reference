@@ -16,61 +16,61 @@
 
 ### :cat:maven reposotory 설정용
 
-##### [settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
+- [settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
 
 ---
 
 ### :cat:vsCode `settings.json` 샘플
 
-##### [settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
+- [settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
 
 ---
 
 ### :ox:logback log message 설정
 
-##### [logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
+- [logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
 
 ---
 
 ### :hamster:SpringMVC 한글 Filter와 namespace 설정
 
-##### [web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
+- [web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
 
 ---
 
 ### :hamster:SpringMVC 한글 Filter, Security 설정
 
-##### [web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
+- [web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
 
 ---
 
 ### :dolphin:maven, spring, oracle mybatis 설정
 
-##### [mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
+- [mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
 
 ---
 
 ### :ox:mybatis mapper 설정
 
-##### [mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
+- [mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
 
 ---
 
 ### :blowfish:Java, Spring Project git hub 업로드 금지 파일 목록
 
-##### [gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
+- [gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
 
 ---
 
 ### :dromedary_camel:NodeJs, React Project git hub 업로드 금지 파일 목록
 
-##### [Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
+- [Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
 
 ---
 
 ### :blowfish: git hub markdown 이모지 모음
 
-##### [마크다운 이모지](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운이모지.md)
+- [마크다운 이모지](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운이모지.md)
 
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
@@ -78,13 +78,13 @@
 
 ### :blowfish:SVG 샘플
 
-##### [W3C SVG 이미지 샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
+- [W3C SVG 이미지 샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
 
 ---
 
 ### :baby_chick:마크다운 문서 작성법 정리
 
-##### [마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
+- [마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
 
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
 
@@ -104,7 +104,7 @@
 
 ### :dog:자바 Primitive 자료형
 
-[자바 자료형](https://github.com/callor/Reference/blob/master/MarkDownDocs/자바자료형.md)
+- [자바 자료형](https://github.com/callor/Reference/blob/master/MarkDownDocs/자바자료형.md)
 
 | 종류    | 설명           | 저장 공간       | 값의 범위 (최소값~최대값)                                                 |
 | ------- | -------------- | --------------- | ------------------------------------------------------------------------- |
@@ -121,7 +121,7 @@
 
 ### :cyclone:정규식 문법
 
-[정규식 문법](https://github.com/callor/Reference/blob/master/MarkDownDocs/JS정규식.md)
+- [정규식 문법](https://github.com/callor/Reference/blob/master/MarkDownDocs/JS정규식.md)
 
 ### :dog:[ojdbc6 설치](https://github.com/callor/Reference/blob/master/Setting/Ojdbc6_Maven_Local.md)
 
