@@ -6,45 +6,67 @@
 
 ##### :racehorse:[개발도구](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
 
+---
+
 ### Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
 
 ##### :cat:[pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
+
+---
 
 ### maven reposotory 설정용
 
 ##### :cat:[settings.xml](https://github.com/callor/Reference/tree/master/Settings/maven-repo/maven-settings.xml)
 
+---
+
 ### vsCode `settings.json` 샘플
 
 ##### :cat:[settings.json](https://github.com/callor/Reference/blob/master/Settings/vsCode/settings.json)
+
+---
 
 ### logback log message 설정
 
 ##### :ox:[logback-test.xml](https://github.com/callor/Reference/blob/master/Setting/logback/logback-test_UTF-8-new.xml)
 
+---
+
 ### SpringMVC 한글 Filter와 namespace 설정
 
 ##### :hamster:[web.xml Encoding](https://github.com/callor/Reference/blob/master/Setting/server/web_Kor.xml)
+
+---
 
 ### SpringMVC 한글 Filter, Security 설정
 
 ##### :hamster:[web.xml Security](https://github.com/callor/Reference/blob/master/Setting/server/web_Security.xml)
 
+---
+
 ### maven, spring, oracle mybatis 설정
 
 ##### :dolphin:[mybatis-config.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-config.xml)
+
+---
 
 ### mybatis mapper 설정
 
 ##### :ox:[mybatis-mapper.xml](https://github.com/callor/Reference/blob/master/Setting/mybatis/mybatis-mapper.xml)
 
+---
+
 ### Java, Spring Project git hub 업로드 금지 파일 목록
 
 ##### :blowfish:[gitignore](https://github.com/callor/Reference/blob/master/.gitignore)
 
+---
+
 ### NodeJs, React Project git hub 업로드 금지 파일 목록
 
 ##### :dromedary_camel:[Nodejs_gitignore](https://github.com/callor/Reference/blob/master/.Nodejs_gitignore)
+
+---
 
 ### git hub markdown 이모지 모음
 
@@ -52,15 +74,21 @@
 
 - 원본출처 : <https://www.webfx.com/tools/emoji-cheat-sheet/>
 
+---
+
 ### SVG 샘플
 
 ##### :blowfish:W3C SVG 이미지[샘플](https://github.com/callor/Reference/blob/master/MarkDownDocs/SVG_image.md)
+
+---
 
 ### 마크다운 문서 작성법 정리
 
 ##### :baby_chick:[마크다운작성](https://github.com/callor/Reference/blob/master/MarkDownDocs/마크다운작성.md)
 
 - 원본출처 : <https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md>
+
+---
 
 ### :moneybag:[프로젝트 샘플데이터](https://github.com/callor/Reference/blob/master/샘플데이터)
 
@@ -71,6 +99,8 @@
 - [매입매출](https://github.com/callor/Reference/blob/master/샘플데이터/매입매출데이터)
 - [정의서,양식](https://github.com/callor/Reference/blob/master/샘플데이터/정의서파일)
 - [학사,성적](https://github.com/callor/Reference/blob/master/샘플데이터/학사_성적데이터)
+
+---
 
 ### :dog:자바 Primitive 자료형
 
@@ -87,6 +117,8 @@
 | float   | IEEE 754 실수  | 32bits, 4Bytes  | 1.40239846E-45f ~ (표현 가능 양수 범위) 3.40282347E+38f                   |
 | double  | IEEE 754 실수  | 64 bits, 8Bytes | 4.94065645841246544E-324 ~ (표현 가능 양수 범위) 1.79769313486231570E+308 |
 
+---
+
 ### :cyclone:정규식 문법
 
 [정규식 문법](https://github.com/callor/Reference/blob/master/MarkDownDocs/JS정규식.md)
@@ -95,6 +127,8 @@
 
 - 오라클 ojdbc6.jar 로컬 maven reposotory 설치
 - 2021-07-21 이후 maven 에서 **objbc8** 등 공식 JDBC 다운로드 설치 가능해짐
+
+---
 
 ### :dog:[ojdbc8 설치](https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8)
 
