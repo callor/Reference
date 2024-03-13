@@ -1,11 +1,11 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "D2Coding",
-  "editor.fontSize": 30,
+  "editor.fontSize": 18,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "scm.inputFontSize": 20,
+  "scm.inputFontSize": 18,
   "markdown.preview.fontSize": 16,
   "debug.console.fontSize": 16,
   "terminal.integrated.fontSize": 16,
@@ -14,7 +14,7 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [80],
+    "editor.rulers": [],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -22,20 +22,46 @@
     "editor.wordBasedSuggestions": "off"
   },
   "dart.showInspectorNotificationsForWidgetErrors": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.analyzerInstrumentationLogFile": null,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.indentSize": "tabSize",
+  "editor.fontLigatures": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "quickfix.insertSemicolon": "explicit"
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.CustomBrowser": "chrome",
   "liveServer.settings.useLocalIp": true,
   "prettier.printWidth": 70,
-  "editor.inlineSuggest.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "dart.previewFlutterUiGuides": true,
-  "dart.previewFlutterUiGuidesCustomTracking": true,
   "debug.console.fontFamily": "D2Coding",
   "workbench.colorTheme": "Default High Contrast",
   "window.zoomLevel": 1,
-  "dart.analyzerInstrumentationLogFile": null
+  "errorLens.lintFilePaths": {
+    "eslint": [
+      "**/*.eslintrc.{js,cjs,yaml,yml,json}",
+      "**/*package.json"
+    ],
+    "Stylelint": [
+      "**/*.stylelintrc",
+      "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+      "**/*stylelint.config.{cjs,js}",
+      "**/*package.json"
+    ]
+  },
+  "errorLens.editorHoverPartsEnabled": {
+    "messageEnabled": true
+  },
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info",
+    "hint"
+  ]
 }
