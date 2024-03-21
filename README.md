@@ -8,6 +8,9 @@
 
 ---
 
+### Spring STS 3 용 Legacy/MVC 프로젝트 Template
+- [Spring Legacy Template](https://github.com/callor/Callor-SpringMVC-Template-2024.git)
+
 ### :cat:Spring MVC Project 표준 `pom.xml` : 2023. 07. 25일 Tomcat 9 호환
 
 - [pom.xml](https://github.com/callor/Reference/blob/master/Setting/maven-repo/pom-2023-07-25-.xml)
