@@ -2,25 +2,22 @@
 <configuration scan="true" scanPeriod="3 seconds">
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+        <encoder>
             <charset>UTF-8</charset>
             <Pattern>[%-5level] - %msg%n</Pattern>
         </encoder>
     </appender>
 
-    <logger name="org.springframework" level="INFO"  additivity="false"/>
-    <logger name="org.mybatis" level="INFO" additivity="false"/>
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.mybatis" level="INFO"/>
 
     <!-- 적용하는 프로젝트의  Base Package를 설정 -->
-    <logger name="com.callor.hello" 
-            level="INFO"  additivity="false"/>
+    <logger name="com.callor.hello" level="INFO"/>
 
 
     <!-- 적용하는 프로젝트의  controller와 service  Package의 level을 debug로 설정 -->
-    <logger name="com.callor.hello.controller" 
-                level="DEBUG"  additivity="false"/>
-    <logger name="com.callor.hello.service" 
-            level="DEBUG"  additivity="false"/>
+    <logger name="com.callor.hello.controller" level="DEBUG"/>
+    <logger name="com.callor.hello.service" level="DEBUG" />
 
     <root level="WARN">
         <appender-ref ref="STDOUT"/>
