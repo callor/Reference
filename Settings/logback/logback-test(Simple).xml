@@ -3,23 +3,26 @@
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-        	<charset>UTF-8</charset>
+            <charset>UTF-8</charset>
             <Pattern>[%-5level] - %msg%n</Pattern>
         </encoder>
     </appender>
 
     <logger name="org.springframework" level="INFO"  additivity="false"/>
-    <logger name="org.mybatis"><level value="INFO" additivity="false"/></logger>
+    <logger name="org.mybatis" level="INFO" additivity="false"/>
 
     <!-- 적용하는 프로젝트의  Base Package를 설정 -->
-    <logger name="com.callor.project"><level value="INFO"  additivity="false"/></logger>
+    <logger name="com.callor.hello" 
+            level="INFO"  additivity="false"/>
 
 
-	<!-- 적용하는 프로젝트의  controller와 service  Package의 level을 debug로 설정 -->
-    <logger name="com.callor.project.controller"><level value="DEBUG"  additivity="false"/></logger>
-    <logger name="com.callor.project.service"><level value="DEBUG"  additivity="false"/></logger>
+    <!-- 적용하는 프로젝트의  controller와 service  Package의 level을 debug로 설정 -->
+    <logger name="com.callor.hello.controller" 
+                level="DEBUG"  additivity="false"/>
+    <logger name="com.callor.hello.service" 
+            level="DEBUG"  additivity="false"/>
 
-    <root level="INFO">
+    <root level="WARN">
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
