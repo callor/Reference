@@ -1,0 +1,78 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "D2Coding",
+  "editor.fontSize": 20,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "scm.inputFontSize": 20,
+  "markdown.preview.fontSize": 16,
+  "editor.accessibilitySupport": "off",
+  "git.openRepositoryInParentFolders": "never",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "quickfix.insertSemicolon": "explicit"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.useLocalIp": true,
+  "prettier.printWidth": 70,
+  "editor.inlineSuggest.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "debug.console.fontFamily": "D2Coding",
+  "workbench.colorTheme": "Default High Contrast",
+  "window.zoomLevel": 1,
+  "dart.analyzerInstrumentationLogFile": null,
+  "dart.flutterCreateOrganization": "com.callor",
+  "editor.guides.bracketPairs": "active",
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.fontLigatures": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "editor.showUnused": false,
+  "errorLens.lintFilePaths": {
+    "eslint": [
+      "**/*.eslintrc.{js,cjs,yaml,yml,json}",
+      "**/*package.json"
+    ],
+    "Stylelint": [
+      "**/*.stylelintrc",
+      "**/*.stylelintrc.{cjs,js,json,yaml,yml}",
+      "**/*stylelint.config.{cjs,js}",
+      "**/*package.json"
+    ]
+  },
+  "errorLens.editorHoverPartsEnabled": {
+    "messageEnabled": true
+  },
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info",
+    "hint"
+  ],
+  "errorLens.messageBackgroundMode": "none",
+  "editor.indentSize": "tabSize",
+  "workbench.preferredDarkColorTheme": "Default High Contrast",
+  "editor.semanticTokenColorCustomizations": {},
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffea00"
+  },
+  "errorLens.replace": [],
+  "errorLens.respectUpstreamEnabled": {
+    "inlineMessage": false
+  }
+}
