@@ -1,3 +1,6 @@
+// 20240329104549
+// https://raw.githubusercontent.com/callor/Reference/master/Settings/vsCode/setttins_js.json
+
 {
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "D2Coding",
@@ -32,7 +35,7 @@
   "editor.inlineSuggest.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "debug.console.fontFamily": "D2Coding",
-  "workbench.colorTheme": "Default High Contrast",
+  "workbench.colorTheme": "Default Dark+",
   "window.zoomLevel": 1,
   "dart.analyzerInstrumentationLogFile": null,
   "dart.flutterCreateOrganization": "com.callor",
