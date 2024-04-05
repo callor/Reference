@@ -7,7 +7,7 @@
 	
 	<typeAliases>
 		<typeAlias 
-			type="com.biz.dbms.persistence.BBsDTO" 
+			type="com.callor.dbms.persistence.BBsDTO" 
 			alias="BBsDTO"/>
 	</typeAliases>
 	

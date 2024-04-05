@@ -30,7 +30,7 @@
 
     <logger name="org.springframework" level="INFO" />
     <logger name="org.mybatis"><level value="INFO"/></logger>
-    <logger name="com.biz.context"><level value="INFO"/></logger>
+    <logger name="com.callor.context"><level value="INFO"/></logger>
     
     <!-- SQL Logger -->
 	<logger name="jdbc.sqltiming" additivity="false">
