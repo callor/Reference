@@ -14,8 +14,8 @@
 		<property name="minimumIdle" value="20" />
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/rentDB" />
-		<property name="username" value="root" /> 
-		<property name="password" value="!Biz8080" /> 		
+		<property name="username" value="user" /> 
+		<property name="password" value="user" /> 		
 	</bean>
 		
 	<bean id="hikariDS" class="com.zaxxer.hikari.HikariDataSource">
