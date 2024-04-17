@@ -22,15 +22,9 @@
 	<bean id="sqlSessionFactory"
 		class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="ds" />
-		<property name="mapperLocations"
-			value="/WEB-INF/spring/mybatis/mapper/*-mapper.xml" />
-
-		<property name="configLocation"
-			value="/WEB-INF/spring/mybatis/mybatis-config.xml" />
-
-		<property name="typeAliasesPackage"
-			value="com.callor.product.domain" />
-
+		<property name="mapperLocations" value="/WEB-INF/spring/mybatis/mapper/*-mapper.xml" />
+		<property name="configLocation" value="/WEB-INF/spring/mybatis/mybatis-config.xml" />
+		<property name="typeAliasesPackage" value="com.callor.product.domain" />
 	</bean>
 
 	<!-- mapper.xml과 Dao와 연동하여 DBMS 연산을 수행 -->
