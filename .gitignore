@@ -30,8 +30,6 @@ target/
 Servers*/
 RemoteSystemsTempFiles/
 
-
-
 # eclipse project files
 .metadata
 *.tmp
@@ -141,6 +139,10 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# npm, yarn lock file
+yarn.lock
+package-lock.json
 
 # ETC
 .bak
