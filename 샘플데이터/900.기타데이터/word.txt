@@ -639,7 +639,7 @@ explicit:명백한
 explode:폭발시키다
 explore:탐험하다
 export:수출하다 수출
-expose:"쐬다
+expose:쐬다
 express:발표하다
 extend:뻗다
 extent:넓이
@@ -914,7 +914,7 @@ liberty:자유
 library:도서관
 license:면허
 likely:있을 법한
-likewise:"같이
+likewise:같이
 linguistic:말의
 liquid:액체
 listen:경청하다
@@ -1028,13 +1028,13 @@ nonetheless:역시
 nonsense:허튼 소리
 normal:표준(의)
 nothing:아무것도 …없다
-notice:"통지
-notion:"n
-nowadays:"오늘날에는
+notice:통지
+notion:n
+nowadays:오늘날에는
 nowhere:아무데도 …없다
-nuclear:"핵의
+nuclear:핵의
 number:수
-numerous:"다 수의
+numerous:다 수의
 object:사물
 objective:객관적인
 oblige:(의무를)별수없이 -하게하다
@@ -1085,7 +1085,7 @@ parliament:의회
 participate:참가하다
 particle:입자
 particular:특수한
-passage:"통행
+passage:통행
 passenger:승객
 passion:정열
 passport:여권
@@ -1129,16 +1129,16 @@ pocket:포켓
 poison:독
 police:경찰 경비하다
 policy:정책
-polish:"닦다
+polish:닦다
 polite:공손한
 politics:정치
 pollute:-을 더럽히다
-popular:"민중 의
+popular:민중 의
 population:인구
-portion:"일부
+portion:일부
 portrait:초상
 position:위치
-positive:"명확한
+positive:명확한
 possess:소유하다
 possible:가능한
 poster:포스터
@@ -1153,78 +1153,78 @@ precede:-에 앞서다
 precious:비싼
 precise:정확한
 predator:약탈자
-predict:"예언하다
-prefer:"오히려 …을 좋아하다
+predict:예언하다
+prefer:오히려 …을 좋아하다
 pregnant:임신한 충만한
-prejudice:"편견
-premier:"국무 총리
-premium:"할증금
-prepare:"준비하 다
-prescribe:"명령하다
-presence:"존재
-present:"있는
-preserve:"보호하다
+prejudice:편견
+premier:국무 총리
+premium:할증금
+prepare:준비하 다
+prescribe:명령하다
+presence:존재
+present:있는
+preserve:보호하다
 president:대통령 회장
 presume:가정하다
 pretend:핑계삼다
-pretty:"예쁜
-prevail:"이기다
-prevent:"막다
-previous:"앞의
+pretty:예쁜
+prevail:이기다
+prevent:막다
+previous:앞의
 priest:성직자
-primary:"첫째의
-primitive:"원시의
-prince:"왕자
-principal:"주요한
-principle:"원리
+primary:첫째의
+primitive:원시의
+prince:왕자
+principal:주요한
+principle:원리
 prison:교도소
-privacy:"남의 눈을 피함
-private:"사적인
-privilege:"특권
-probably:"아마
+privacy:남의 눈을 피함
+private:사적인
+privilege:특권
+probably:아마
 problem:문제
-procedure:"진행
-proceed:"나아가다
-process:"진행
-produce:"생산하다
-profession:"직업 공언
+procedure:진행
+proceed:나아가다
+process:진행
+produce:생산하다
+profession:직업 공언
 professor:교수
-profile:"옆 얼굴
-profit:"이익
-profound:"깊은
-progress:"진행
-prohibit:"금하다
-prominent:"두드러진
-promise:"약속
-promote:"승진시키다 진행시키다
-prompt:"재빠른
-pronounce:"발음하다
-proper:"고유의
-property:"재산
-proportion:"비율
-propose:"제의하다
-prospect:"전망
+profile:옆 얼굴
+profit:이익
+profound:깊은
+progress:진행
+prohibit:금하다
+prominent:두드러진
+promise:약속
+promote:승진시키다 진행시키다
+prompt:재빠른
+pronounce:발음하다
+proper:고유의
+property:재산
+proportion:비율
+propose:제의하다
+prospect:전망
 prosper:번영하다
-protect:"보호하다
+protect:보호하다
 protein:IG1s
 protest:단언하다
-provide:"준비하다
-province:"주
+provide:준비하다
+province:주
 provoke:화나게 하다
 psychology:심리학
-public:"심리
-publish:"발표 하다
-punish:"벌하다
-purchase:"사다
+public:심리
+publish:발표 하다
+punish:벌하다
+purchase:사다
 purple:자줏빛의  새빨간  제왕의
 purpose:목적
-pursue:"쫓다
-puzzle:"당황
+pursue:쫓다
+puzzle:당황
 qualify:자격을 부여하다
 quality:질
 quantity:양
 quarter:1
-question:"물음
+question:물음
 questionnaire:질문표
 rabbit:집토끼
 racial:인종(상)의
@@ -1336,7 +1336,7 @@ school:학교
 science:과학
 scissors:가위
 scramble:기다
-scratch:"할퀴다
+scratch:할퀴다
 scream:비명을 지르다
 screen:병풍
 sculpture:조각 조각하다
@@ -1525,7 +1525,7 @@ traffic:교통
 tragic:비극의
 transact:처리하다
 transfer:옮기다
-transform:"변형(변용
+transform:변형(변용
 transition:변천
 translate:번역하다
 transmit:보내다
@@ -1564,30 +1564,30 @@ vacuum:진공
 valley:골짜기
 vanish:자취를 감추다
 various:가지가지의
-vegetable:"식물  야채
-vehicle:"운반 기구
+vegetable:식물  야채
+vehicle:운반 기구
 venture:모험
-verbal:"말의
-version:"번역
-versus:"…대
-vertical:"수평면에 직각인
+verbal:말의
+version:번역
+versus:…대
+vertical:수평면에 직각인
 vessel:그릇
-veteran:"노련가
+veteran:노련가
 veterinarian:수의사
-victim:"희생
-victory:"승리
-vigorous:"정력적인
-village:"마을
-violent:"격렬한
-virgin:"처녀
-virtual:"사실상의
-virtue:"덕
-visible:"눈에 보이는
-visual:"시각의
-vocabulary:"어휘
-vocation:"천직
+victim:희생
+victory:승리
+vigorous:정력적인
+village:마을
+violent:격렬한
+virgin:처녀
+virtual:사실상의
+virtue:덕
+visible:눈에 보이는
+visual:시각의
+vocabulary:어휘
+vocation:천직
 volume:책  권
-voluntary:"자발적인
+voluntary:자발적인
 voyage:여행
 wander:헤매다
 warehouse:창고
