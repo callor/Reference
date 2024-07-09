@@ -2,7 +2,7 @@
 
 ### :racehorse:개발도구 링크 모음
 
-- **2023. 8. 19.** Update
+- **2024. 1. 5.** Update
 
 - [개발도구 바로가기](https://github.com/callor/Reference/blob/master/MarkDownDocs/개발자를_위한_도구.md)
 
