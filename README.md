@@ -1,4 +1,4 @@
-# :scream_cat: 참고자료 모음
+# :scream_cat: 개발자를 위한 참고자료 모음
 
 ### :racehorse:개발도구 링크 모음
 
