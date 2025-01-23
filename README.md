@@ -1,6 +1,6 @@
-# :scream_cat: 참고자료 모음
+# :scream_cat: 개발자를 위한 참고자료 모음
 
-### :racehorse:개발도구 링크 모음
+## :racehorse:개발도구 링크 모음
 
 - **2024. 1. 5.** Update
 
@@ -122,6 +122,10 @@
 | double  | IEEE 754 실수  | 64 bits, 8Bytes | 4.94065645841246544E-324 ~ (표현 가능 양수 범위) 1.79769313486231570E+308 |
 
 ---
+
+### :dog:MySQL 자료형
+
+- [MySQL](https://github.com/callor/Reference/blob/master/MarkDownDocs/MySQL_자료형.md)
 
 ### :cyclone:정규식 문법
 
